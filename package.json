@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "http-server": "^13.0.2"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
   }
 }

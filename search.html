@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <script langage="javascript">
+            document.querySelectorAll('h1').forEach(selection => selection.style.color = 'red');
+        </script>
+        </head>
+<style>
+    /* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font: 1rem/1.618rem "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/* Heading */
+h1,h2,h3{
+    line-height: 1.618em;
+    margin: 1.618em 0;
+}
+h1:first-child,h2:first-child,h3:first-child{
+    margin-top: 0;
+}
+h1:last-child,h2:last-child,h3:last-child{
+    margin-bottom: 0;
+}
+
+/* Sectioning */
+section, article, aside, nav{
+    padding: 1.618rem;
+}
+
+/* main */
+main{
+    display: flex;
+}
+main article{
+    width: 70%;
+}
+main aside{
+    width: 30%;
+}
+/* body header */
+header nav ul{
+    margin: -1.618rem;
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    width: 100%;
+    text-align: center;
+    padding: 1.618rem 0;
+}
+/* aside list */
+aside ul li{
+    padding: 1.618rem 0;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+
+</style>
+
+    </head>
+    <body>
+      <header>
+        <nav>
+            <ul>
+                <li><a href="">Menu 1</a></li>
+                <li><a href="">Menu 2</a></li>
+                <li><a href="">Menu 3</a></li>
+                <li><a href="">Menu 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Hello</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>サブコンテンツタイトル</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+            </p>
+            <section>
+                <h3>サブセクション</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Malus-Jonathan.jpg/220px-Malus-Jonathan.jpg" alt="紅玉">
+            </section>
+            <section>
+                <h3>サブセクション</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Guoguang.jpg/220px-Guoguang.jpg">
+            </section>
+        </article>
+        <aside>
+            <h2>サイドバー</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+            </p>
+            <ul>
+                <li><a href="">List 1</a></li>
+                <li><a href="">List 2</a></li>
+                <li><a href="">List 3</a></li>
+                <li><a href="">List 4</a></li>
+            </ul>
+            <p>
+    
+            </p>
+            <address>
+                <p>連絡先</p>
+                <p>000-0000-0000</p>
+                <p>info@example.com</p>
+            </address>
+        </aside>
+    </main>
+    
+    <footer>
+        <small class="copy">Copyright@ <a href="">Anonymous</a></small>
+    </footer></body>
+
+    </html>
